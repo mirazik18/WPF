@@ -1,0 +1,45 @@
+﻿<Window x:Class="Wpftest.MainWindow"
+        
+    
+         
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpftest"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}" d:DesignHeight="736.855">
+
+    <Grid>
+        <materialDesign:ColorZone Mode="PrimaryDark"  Height="703" RenderTransformOrigin="0.5,0.5" Margin="1,-3,-1,0">
+            <materialDesign:ColorZone.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.459"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+
+            </materialDesign:ColorZone.RenderTransform>
+            <TextBlock x:Name="textBlock"   TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.5,0.5" Height="654" Margin="4,-4,11,-147">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.149"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform><Run Text="&#x9;&#x9;            Identification Card"/><LineBreak/><LineBreak/><Run Text="Full Name: A"/><Run Text="bdishev Miras"/><LineBreak/><Run Text="ID No: 13371488228"/><LineBreak/><Run Text="Date of birth: 30.09.2002"/><LineBreak/><Run Text="Address: Mars"/><LineBreak/><Run Text="Father's Name: Baurzhan"/><LineBreak/><Run Text="Mother's Name: Altynai"/><LineBreak/><Run Text="Gender: Female"/><LineBreak/><Run Text="Weight: 60kg"/><LineBreak/><Run Text="Height: 180cm"/><LineBreak/><Run Text="Eyes: Light Brown"/><LineBreak/><Run Text="Hair color: Black"/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><LineBreak/></TextBlock>
+
+
+        </materialDesign:ColorZone>
+    </Grid>
+
+
+</Window>
